@@ -1,0 +1,1342 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 32680 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+F:\Unity\Editors\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Unity/Projects/TestTask
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60554
+Successfully changed project path to: F:/Unity/Projects/TestTask
+F:/Unity/Projects/TestTask
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path F:/Unity/Editors/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity/Projects/TestTask/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'F:/Unity/Editors/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity/Editors/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/Unity/Editors/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity/Editors/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000970 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.723 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003214 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.5 MB.
+System memory in use after: 60.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1631.
+Total: 22.343100 ms (FindLiveObjects: 0.225800 ms CreateObjectMapping: 0.087300 ms MarkObjects: 21.940000 ms  DeleteObjects: 0.088300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ShiftGames/EquipSystem/NewBehaviourScript.cs
+  artifactKey: Guid(9dcbef6119c25fc40a2fa123b0679fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/NewBehaviourScript.cs using Guid(9dcbef6119c25fc40a2fa123b0679fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69acfb2f613ebea8fe79ab9cd1714b38') in 0.030294 seconds
+  Import took 0.033097 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1634.
+Total: 13.118500 ms (FindLiveObjects: 0.133400 ms CreateObjectMapping: 0.039000 ms MarkObjects: 12.887700 ms  DeleteObjects: 0.057400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1134 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1637.
+Total: 13.312800 ms (FindLiveObjects: 0.121800 ms CreateObjectMapping: 0.031600 ms MarkObjects: 13.096800 ms  DeleteObjects: 0.061200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.118772 seconds.
+  path: Assets/ShiftGames/EquipSystem/NewBehaviourScript.cs
+  artifactKey: Guid(9dcbef6119c25fc40a2fa123b0679fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/NewBehaviourScript.cs using Guid(9dcbef6119c25fc40a2fa123b0679fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b854103e208bcb25a564a19f32e2bb5f') in 0.003723 seconds
+  Import took 0.005577 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003167 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1639.
+Total: 13.181300 ms (FindLiveObjects: 0.333200 ms CreateObjectMapping: 0.074600 ms MarkObjects: 12.716300 ms  DeleteObjects: 0.055700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.053889 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8403542ee2c2ace486acdc039bb18787') in 0.033489 seconds
+  Import took 0.035622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.138078 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355133ba3060568511e72386a708a193') in 0.002729 seconds
+  Import took 0.004622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.887183 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c28a227caf79a0b4e6c13b98a84366a') in 0.002779 seconds
+  Import took 0.004528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.677380 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02b4a19a644227b2778c971dbb682da') in 0.002710 seconds
+  Import took 0.004737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.423294 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae0b5af6f48023dbb0734367733311e') in 0.002789 seconds
+  Import took 0.004769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.009016 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c97c767f69f351b3524b0e74d340547') in 0.016705 seconds
+  Import took 0.018554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.364624 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c722c8e125187eaa9ae592ab0c6d2368') in 0.003186 seconds
+  Import took 0.005054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.157524 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3d007a7cdc20d70c45482f7cf45429') in 0.003544 seconds
+  Import took 0.005406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.374244 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1040fcbc8e07d38d2ccef44117234195') in 0.003411 seconds
+  Import took 0.005418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.820534 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f7c8aaa30226401de96961a069ca2f') in 0.003231 seconds
+  Import took 0.005018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.348030 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee4194348060ce2fb3ca6ecf38b821c') in 0.003485 seconds
+  Import took 0.005466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.124272 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fdea28a6e5e62142a782e51a7729361') in 0.003326 seconds
+  Import took 0.005137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.077425 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e2faf79d9dafe941d642de380697e1') in 0.003666 seconds
+  Import took 0.005588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.070698 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f00c80f0b23101a4de6812380ed082') in 0.003607 seconds
+  Import took 0.005512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.702511 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01098ccdae80df48d50a2e29cc83b62') in 0.003890 seconds
+  Import took 0.006019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.917618 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9961496587f25ee57c5744da9ca74993') in 0.003687 seconds
+  Import took 0.005509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.082624 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12cadf53e7cf55ae4ac464802c43f8f') in 0.003504 seconds
+  Import took 0.005354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.860503 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d0ee0309d33d78041f3bb729671981') in 0.003937 seconds
+  Import took 0.005885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.611025 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d38a4816662a7908c4af7d08928d456') in 0.003915 seconds
+  Import took 0.006175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.160597 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9124a90f63d9be492e526aaf183dc5f5') in 0.003649 seconds
+  Import took 0.005609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.199106 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb08bd7fb75fcb14af176f61f618db8') in 0.003515 seconds
+  Import took 0.005566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.967201 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9cd2183cb06eb490b8c8c0b5267b7c') in 0.003594 seconds
+  Import took 0.005625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.545770 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fedb48b81cd9021ae740b51491fec77') in 0.003710 seconds
+  Import took 0.005921 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003203 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.849 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.4 MB.
+System memory in use after: 60.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1644.
+Total: 13.065300 ms (FindLiveObjects: 0.118700 ms CreateObjectMapping: 0.032800 ms MarkObjects: 12.843600 ms  DeleteObjects: 0.069000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.431581 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b489f78c28f2bb8136ea838a60b606d0') in 0.043237 seconds
+  Import took 0.045615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.836731 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f951cd179b0220271e56b5f7723d0e09') in 0.003265 seconds
+  Import took 0.005502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.999901 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408f482ecf9ed26afaebf23ec16ec934') in 0.003473 seconds
+  Import took 0.005385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.935212 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3aca1b41e480b26768cbaf830d5a8cb') in 0.003528 seconds
+  Import took 0.005354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.517274 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b663ad58702a0f623bf3d5fa1f16e88e') in 0.003488 seconds
+  Import took 0.005539 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003340 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.5 MB.
+System memory in use after: 60.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1647.
+Total: 12.706900 ms (FindLiveObjects: 0.119200 ms CreateObjectMapping: 0.031800 ms MarkObjects: 12.488500 ms  DeleteObjects: 0.066400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.252457 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baebc905ad5dceaf9512733839b89ed1') in 0.037813 seconds
+  Import took 0.039895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.485040 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfd37a6d03c93bf638087abee11f562') in 0.003493 seconds
+  Import took 0.005419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.999551 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5417adb9dba322953e59cbb1b2d189') in 0.003322 seconds
+  Import took 0.005287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.150636 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53183edf0887b780b060b3cc3d61e991') in 0.003420 seconds
+  Import took 0.005304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.840050 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393df34502f04666e43228c214a3325a') in 0.003266 seconds
+  Import took 0.005377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.350580 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9727da758c4691c8ef431999b069214d') in 0.003930 seconds
+  Import took 0.005808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.521447 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3683c2602c14e168b6f2601a10648a7') in 0.003546 seconds
+  Import took 0.005611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.797417 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6c5b3ff0723e4e9acc734379b16620') in 0.003555 seconds
+  Import took 0.005511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1255.070408 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2b6b6c66fe2ea3376b39ea5cf2f441') in 0.006347 seconds
+  Import took 0.008698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.322896 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffdc24a97ef304e463d7b23d2ba98f0') in 0.003428 seconds
+  Import took 0.006148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.349692 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc5a82380e9ca03e3579e8d809919e8') in 0.003862 seconds
+  Import took 0.005940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.522853 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8b01673ce9278373b642ae730672af') in 0.003535 seconds
+  Import took 0.005501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.476776 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd0e9d01852446f29a4c8aa072ef948') in 0.003504 seconds
+  Import took 0.005721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.957643 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0be4335fae77ce9ce4d88fbe8d0ebfe') in 0.003479 seconds
+  Import took 0.005381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.714032 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded4cc08ce4c0a8fca86983b84c9f499') in 0.003410 seconds
+  Import took 0.005347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.341831 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6906e17c4248d2581e3e2172080d05c') in 0.003471 seconds
+  Import took 0.005795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.692399 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb2086b3a6a6b779520e88f49760081') in 0.003412 seconds
+  Import took 0.005269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.710489 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7279cedebeed884617d5c2db47932262') in 0.003344 seconds
+  Import took 0.005243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.231468 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40369b18ffa7e25f7fbd560340a4760') in 0.003573 seconds
+  Import took 0.005539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.509602 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba031799b93de988b81ef0e597b06a7f') in 0.003384 seconds
+  Import took 0.005222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.474594 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22787c09934d0b56cdde41e17e3adc8f') in 0.003264 seconds
+  Import took 0.005319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.337124 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05cfb3d6e9141a1460339e3c631d571') in 0.004244 seconds
+  Import took 0.006214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.478790 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a66ba3ab0900e0a4c299c9a8247cf7') in 0.003315 seconds
+  Import took 0.005613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.742977 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80857c0b83474a0a86e547f5c7e9134e') in 0.003278 seconds
+  Import took 0.005181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.798660 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab
+  artifactKey: Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equip slot.prefab using Guid(0c2506850df64d346b19510950b72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0006f0758f07b33586e64753eefaa43') in 0.003520 seconds
+  Import took 0.006093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2833.537874 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/[Image] Equipment slot.prefab
+  artifactKey: Guid(80c86e78e30c6004d8212039bbec3aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/[Image] Equipment slot.prefab using Guid(80c86e78e30c6004d8212039bbec3aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41ebc4a81a045a0d38a994438c5751d') in 0.007798 seconds
+  Import took 0.010542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021867 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/[Image] Equipment slot.prefab
+  artifactKey: Guid(80c86e78e30c6004d8212039bbec3aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/[Image] Equipment slot.prefab using Guid(80c86e78e30c6004d8212039bbec3aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41ebc4a81a045a0d38a994438c5751d') in 0.003185 seconds
+  Import took 0.004968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.674356 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equipment slot.prefab
+  artifactKey: Guid(80c86e78e30c6004d8212039bbec3aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equipment slot.prefab using Guid(80c86e78e30c6004d8212039bbec3aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70681153f55fd3ab284011eed147a854') in 0.006739 seconds
+  Import took 0.008875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020851 seconds.
+  path: Assets/ShiftGames/EquipSystem/UI/Prefabs/Equipment slot.prefab
+  artifactKey: Guid(80c86e78e30c6004d8212039bbec3aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/UI/Prefabs/Equipment slot.prefab using Guid(80c86e78e30c6004d8212039bbec3aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70681153f55fd3ab284011eed147a854') in 0.003190 seconds
+  Import took 0.005257 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003233 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.5 MB.
+System memory in use after: 60.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1650.
+Total: 13.072000 ms (FindLiveObjects: 0.138400 ms CreateObjectMapping: 0.037900 ms MarkObjects: 12.813800 ms  DeleteObjects: 0.080600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1612.461262 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Materials
+  artifactKey: Guid(9b463db802dd7574d9c3f1d5b1260d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Materials using Guid(9b463db802dd7574d9c3f1d5b1260d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4ed879c4350139b34b3e76b1acfe59') in 0.008482 seconds
+  Import took 0.010927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134766 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Materials/FantasyHero.mat
+  artifactKey: Guid(ea128b040f8b0af4c9d2de400aaff30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Materials/FantasyHero.mat using Guid(ea128b040f8b0af4c9d2de400aaff30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031d4b33d771c9444911a0065d1765e1') in 0.089474 seconds
+  Import took 0.091416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.076253 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Models/Weapons
+  artifactKey: Guid(1fd3e44978cc1f14888b41a5dd439724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Models/Weapons using Guid(1fd3e44978cc1f14888b41a5dd439724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3527950890389a0a5a1d14fe950424e5') in 0.005422 seconds
+  Import took 0.007398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.684358 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons
+  artifactKey: Guid(d4932e2634dffb440bee6730925ce194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons using Guid(d4932e2634dffb440bee6730925ce194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610f0022b4d67129c79d5cf63052234d') in 0.001715 seconds
+  Import took 0.003736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.142548 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Axe_01.prefab
+  artifactKey: Guid(181c5c49a962f96468635ea191e01184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Axe_01.prefab using Guid(181c5c49a962f96468635ea191e01184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88edfe3ed73985f91dd8265732645606') in 0.023719 seconds
+  Import took 0.025941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Mace_02.prefab
+  artifactKey: Guid(c50c05b371e039141afd3b8e98252ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Mace_02.prefab using Guid(c50c05b371e039141afd3b8e98252ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d6b48cc6cde4ea10fe9ffc28e07dd0') in 0.011942 seconds
+  Import took 0.014014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_09.prefab
+  artifactKey: Guid(ea148a2f45083b94aa91f3dea67b26e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_09.prefab using Guid(ea148a2f45083b94aa91f3dea67b26e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11986c3bc205b7808711941eb36d044') in 0.010898 seconds
+  Import took 0.013008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_03.prefab
+  artifactKey: Guid(bf823887e8a1cc94380c563ec5a0e5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_03.prefab using Guid(bf823887e8a1cc94380c563ec5a0e5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd50f223f0e2db58050380d925649a5a') in 0.010844 seconds
+  Import took 0.012911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Staff_01.prefab
+  artifactKey: Guid(7618bf1eceed7fd4786bae1d1976ef37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Staff_01.prefab using Guid(7618bf1eceed7fd4786bae1d1976ef37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301a2af886be792af0a8482c4c53290a') in 0.010877 seconds
+  Import took 0.013356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_Cover_01.prefab
+  artifactKey: Guid(cdcd31ac69744ec4d928e5d032e933a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_Cover_01.prefab using Guid(cdcd31ac69744ec4d928e5d032e933a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a98af4760f720905e4a64998ebdd047') in 0.014629 seconds
+  Import took 0.016688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_05.prefab
+  artifactKey: Guid(4c80e23b6d36a884b966dfdc9a2b74c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_05.prefab using Guid(4c80e23b6d36a884b966dfdc9a2b74c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bb2c53828ed178eb19c484317aea82') in 0.013674 seconds
+  Import took 0.016259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_02.prefab
+  artifactKey: Guid(2b45f555d4028804c896ca9db0bfcaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_02.prefab using Guid(2b45f555d4028804c896ca9db0bfcaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52be41c398ddd4eab1ae262f74df23a6') in 0.014662 seconds
+  Import took 0.017134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_Large_01.prefab
+  artifactKey: Guid(892122ee87fc15149bc82d7f9d2cdb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_Large_01.prefab using Guid(892122ee87fc15149bc82d7f9d2cdb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef56c00380adccdef4f21c89145cc350') in 0.013678 seconds
+  Import took 0.016242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_11.prefab
+  artifactKey: Guid(572468b361ffc194baa1979437b3653a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_11.prefab using Guid(572468b361ffc194baa1979437b3653a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06edff6c6b2110e25b9e1638aa4f40f4') in 0.013275 seconds
+  Import took 0.016534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_11.prefab
+  artifactKey: Guid(4ca48ed0f045b6e4bad7a3a23758bf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_11.prefab using Guid(4ca48ed0f045b6e4bad7a3a23758bf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea5816022d867b30e6c5fbbc5fde48b') in 0.015983 seconds
+  Import took 0.018738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_10.prefab
+  artifactKey: Guid(5a14a93ec980be1498c8c71a9eb9f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_10.prefab using Guid(5a14a93ec980be1498c8c71a9eb9f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c424384a748c1aef6f7b4ef55d3730') in 0.012783 seconds
+  Import took 0.016036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_14.prefab
+  artifactKey: Guid(500564c520c80d94aa3adccfcd0f2891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_14.prefab using Guid(500564c520c80d94aa3adccfcd0f2891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7b842a28c45a804e6c490cdf3ba740') in 0.013298 seconds
+  Import took 0.016136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_16.prefab
+  artifactKey: Guid(fd3dc9bb217448647b2117f11e73fc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_16.prefab using Guid(fd3dc9bb217448647b2117f11e73fc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d0204ff15229917f6b9621c6d28fc5') in 0.011934 seconds
+  Import took 0.014259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_13.prefab
+  artifactKey: Guid(b49d1bd56c6e6c141be6ab8a0bb9fce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_13.prefab using Guid(b49d1bd56c6e6c141be6ab8a0bb9fce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe086b5058304cfa3837d8a47e69e59c') in 0.014742 seconds
+  Import took 0.017086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_06.prefab
+  artifactKey: Guid(2288ccb479ddbc249bd87ff109381d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_06.prefab using Guid(2288ccb479ddbc249bd87ff109381d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bdb73da9a8ab6c729331aaf8a0039b') in 0.014305 seconds
+  Import took 0.017797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_16.prefab
+  artifactKey: Guid(fe6f551a9a6401f4ca5660bdf84707a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_16.prefab using Guid(fe6f551a9a6401f4ca5660bdf84707a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9504c13cb4769777df14e5c00a6ee3d') in 0.015453 seconds
+  Import took 0.018865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_15.prefab
+  artifactKey: Guid(c84607d7a26eac84ab52511146858b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_15.prefab using Guid(c84607d7a26eac84ab52511146858b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3644feba3bb2859d758595ec0b2c5ea') in 0.014486 seconds
+  Import took 0.016571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_10.prefab
+  artifactKey: Guid(e36ca024821fd9947bf0ba4bb6dd6dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_10.prefab using Guid(e36ca024821fd9947bf0ba4bb6dd6dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4494eeb85b3342405eed733d46870897') in 0.019175 seconds
+  Import took 0.022299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_04.prefab
+  artifactKey: Guid(6304131675f683241b1ab96d2de55c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_04.prefab using Guid(6304131675f683241b1ab96d2de55c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3c14434e86ded415002d7a9c7a760f') in 0.011857 seconds
+  Import took 0.014429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Joust_01.prefab
+  artifactKey: Guid(26e92553ace791e4fa0f935ee0cc84c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Joust_01.prefab using Guid(26e92553ace791e4fa0f935ee0cc84c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11167dedde4600990e09ec3125775452') in 0.014021 seconds
+  Import took 0.018529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Staff_02.prefab
+  artifactKey: Guid(d9197eec8ecc7714cbb8825a1467ae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Staff_02.prefab using Guid(d9197eec8ecc7714cbb8825a1467ae11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4777a6ff2c929b91cac71a9e764fc6') in 0.019298 seconds
+  Import took 0.022472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_ThowingKnife_01.prefab
+  artifactKey: Guid(5d518eb9a65a45d4b846a7cf120d62c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_ThowingKnife_01.prefab using Guid(5d518eb9a65a45d4b846a7cf120d62c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430e60a5ab7a3014c04e9296a3d595f2') in 0.017075 seconds
+  Import took 0.022501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_07.prefab
+  artifactKey: Guid(6c48a4d70726e3e489b2acd86226953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_07.prefab using Guid(6c48a4d70726e3e489b2acd86226953d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2c2a154a3c02034cf621fbb1065efb') in 0.014587 seconds
+  Import took 0.017366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_09.prefab
+  artifactKey: Guid(f759a0c22da09ef4aa753208acf49944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_09.prefab using Guid(f759a0c22da09ef4aa753208acf49944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcdddcb1f594b7a586140b3d14b4541') in 0.013099 seconds
+  Import took 0.015729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Dagger_01.prefab
+  artifactKey: Guid(577a666f9d6ed794893e6d29e09bc76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Dagger_01.prefab using Guid(577a666f9d6ed794893e6d29e09bc76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07968dd9316f7976f4ca19b16d198a2a') in 0.009883 seconds
+  Import took 0.012291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_01.prefab
+  artifactKey: Guid(972d25f077480a44fb2de7fb9f6e52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_01.prefab using Guid(972d25f077480a44fb2de7fb9f6e52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7677409794b35764bf17a7420cd52fe1') in 0.011679 seconds
+  Import took 0.013759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_02.prefab
+  artifactKey: Guid(fc1496590254be5459fdaf1220abf93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_02.prefab using Guid(fc1496590254be5459fdaf1220abf93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ce0f85c8e345ccf6ebbb727cfbe30b') in 0.015168 seconds
+  Import took 0.017299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_06.prefab
+  artifactKey: Guid(febd483cbb56e99488e1112ca2ba8053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_06.prefab using Guid(febd483cbb56e99488e1112ca2ba8053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c32fb13ec0a55ec01eab56a16617de') in 0.011369 seconds
+  Import took 0.013275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_12.prefab
+  artifactKey: Guid(efc8189be0ff92644a084f84928d1cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_12.prefab using Guid(efc8189be0ff92644a084f84928d1cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f0a7c1b7b56c4611ac12878acd557d') in 0.010001 seconds
+  Import took 0.012074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_Small_Cover_01.prefab
+  artifactKey: Guid(640492bb106c8b9418a6b12840af2b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_Small_Cover_01.prefab using Guid(640492bb106c8b9418a6b12840af2b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615a1d84d788019013da02a7cd41cb6a') in 0.009803 seconds
+  Import took 0.011542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_14.prefab
+  artifactKey: Guid(69b6efaf003172244897531ea3ed74d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_14.prefab using Guid(69b6efaf003172244897531ea3ed74d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afd95a87f5c5d96e4b723bd8675e260') in 0.009828 seconds
+  Import took 0.012008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_12.prefab
+  artifactKey: Guid(a14784e5ad35af0478cb15062ce21b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_12.prefab using Guid(a14784e5ad35af0478cb15062ce21b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa697d01609644c57314736542a5e21') in 0.011580 seconds
+  Import took 0.013686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_13.prefab
+  artifactKey: Guid(d468eb08e8b73f1458f42744781e9387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_13.prefab using Guid(d468eb08e8b73f1458f42744781e9387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badc498459a43f86a1791707f7c0c265') in 0.016608 seconds
+  Import took 0.019722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_Small_01.prefab
+  artifactKey: Guid(0a5d9b51542336948b7d2a699f71cd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_Small_01.prefab using Guid(0a5d9b51542336948b7d2a699f71cd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743f28263e169dd8c2c540f7a4d0d8a1') in 0.010577 seconds
+  Import took 0.013046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_18.prefab
+  artifactKey: Guid(0b32aaaec4d08aa45b8a2628f3cb7e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_18.prefab using Guid(0b32aaaec4d08aa45b8a2628f3cb7e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc2c08a96a3528ba8b6948af9546673') in 0.009310 seconds
+  Import took 0.011472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_20.prefab
+  artifactKey: Guid(eb838eeecbe944242b5777c1da782ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_20.prefab using Guid(eb838eeecbe944242b5777c1da782ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5367400303b804a01eefd03fb709bd8') in 0.011292 seconds
+  Import took 0.013121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_03.prefab
+  artifactKey: Guid(80e7764b5e77f814ba94c47968c33158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_03.prefab using Guid(80e7764b5e77f814ba94c47968c33158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b21e1d92e6187cfce246e6370f6a9b') in 0.009907 seconds
+  Import took 0.011755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_05.prefab
+  artifactKey: Guid(515d8910ca702aa489e1054e47d46780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_05.prefab using Guid(515d8910ca702aa489e1054e47d46780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e06a5f7e2c5bd6f4a27440d5df0cdc') in 0.011639 seconds
+  Import took 0.013562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_15.prefab
+  artifactKey: Guid(011bf72b698b5d349bfaa51d08f4fd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_15.prefab using Guid(011bf72b698b5d349bfaa51d08f4fd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1101ddb4c41678f94cbfcd1bbe3d282') in 0.014474 seconds
+  Import took 0.016319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_19.prefab
+  artifactKey: Guid(1db72481a17d2b6408fc638f2d5f1709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_19.prefab using Guid(1db72481a17d2b6408fc638f2d5f1709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d901a6e108d08961427e5ee0b47a23') in 0.013676 seconds
+  Import took 0.015570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_04.prefab
+  artifactKey: Guid(43c24b2a40ba61a489ec5599715c1643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_04.prefab using Guid(43c24b2a40ba61a489ec5599715c1643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f954bd325ac9270f3bd98f5add4362a7') in 0.009811 seconds
+  Import took 0.011550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_01.prefab
+  artifactKey: Guid(0c14f3ea30af4174ba288b3c2042f665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_01.prefab using Guid(0c14f3ea30af4174ba288b3c2042f665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd763c103623a0f5f2a31eab30930dd2a') in 0.010260 seconds
+  Import took 0.012167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Buckler_01.prefab
+  artifactKey: Guid(30360398eb32bd24390545be6837e97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Buckler_01.prefab using Guid(30360398eb32bd24390545be6837e97f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554e42858ee8e2de62bc4d92833243c2') in 0.010444 seconds
+  Import took 0.012343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Joust_03.prefab
+  artifactKey: Guid(f154921f4dd670a4b903eb56e4bd2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Joust_03.prefab using Guid(f154921f4dd670a4b903eb56e4bd2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c122845165105ff1f6714a52829506be') in 0.011252 seconds
+  Import took 0.013361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_07.prefab
+  artifactKey: Guid(3abf356a89cf87c48bae802733f27ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_07.prefab using Guid(3abf356a89cf87c48bae802733f27ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba227304d16c36b2f5bcbad53b90bdd') in 0.012813 seconds
+  Import took 0.014773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_Rapier_01.prefab
+  artifactKey: Guid(1a66284f93ee5da4faa156902261b154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_Rapier_01.prefab using Guid(1a66284f93ee5da4faa156902261b154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04f29f99f2876e4cb24a3b732f96f39') in 0.009701 seconds
+  Import took 0.011883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_08.prefab
+  artifactKey: Guid(cca28be0dfb20754fa84d037825df595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_08.prefab using Guid(cca28be0dfb20754fa84d037825df595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c304aa14b5b5183a1f021eb2e6d4ad') in 0.009281 seconds
+  Import took 0.011369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Joust_02.prefab
+  artifactKey: Guid(b00d2d2ce0fc7e241b341b2c9618f779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Joust_02.prefab using Guid(b00d2d2ce0fc7e241b341b2c9618f779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dac3815587683eaad27c2274459446a') in 0.015524 seconds
+  Import took 0.017754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_17.prefab
+  artifactKey: Guid(c1f04d4546e42a444acd39d2bc4e9b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_17.prefab using Guid(c1f04d4546e42a444acd39d2bc4e9b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b9df80a7ecbe74a42ed312fbe6fb09') in 0.009614 seconds
+  Import took 0.011685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_Rapier_Cover_01.prefab
+  artifactKey: Guid(dab4d3bfd0f0a6f4aa5249c2d0fce6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Sword_Rapier_Cover_01.prefab using Guid(dab4d3bfd0f0a6f4aa5249c2d0fce6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5544da1cf47d57eaec7347d98896961') in 0.010452 seconds
+  Import took 0.012257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Mace_01.prefab
+  artifactKey: Guid(3068d57202960404b8d79e3845baf3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Mace_01.prefab using Guid(3068d57202960404b8d79e3845baf3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841b30c22ec86ef832140eb2f508e996') in 0.010742 seconds
+  Import took 0.012960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_01.prefab
+  artifactKey: Guid(2d4e2f4e970d7a14291c65a743d3b837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_Long_01.prefab using Guid(2d4e2f4e970d7a14291c65a743d3b837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef8664af5c5bb3a68622108315a1608') in 0.009725 seconds
+  Import took 0.011696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_08.prefab
+  artifactKey: Guid(93df57e5d723bb3409dda0840e002b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonFantasyHeroCharacters/Prefabs/Weapons/SM_Wep_Shield_08.prefab using Guid(93df57e5d723bb3409dda0840e002b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb84dac6ba993e98c1e9f0e175a5703') in 0.011226 seconds
+  Import took 0.013464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 255.171945 seconds.
+  path: Assets/ShiftGames/EquipSystem/Weapons
+  artifactKey: Guid(f6117eb0b14ed1345b713d08d1356338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/Weapons using Guid(f6117eb0b14ed1345b713d08d1356338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da33ae45c69fcaf7825ce2bd0c0eb6a2') in 0.001804 seconds
+  Import took 0.003631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.814886 seconds.
+  path: Assets/ShiftGames/EquipSystem/Weapons/Prefabs
+  artifactKey: Guid(cf87d317a24012f4e9cb0185bb414c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/Weapons/Prefabs using Guid(cf87d317a24012f4e9cb0185bb414c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a959830598347349e2bf8a01f484da0') in 0.004772 seconds
+  Import took 0.006577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.869058 seconds.
+  path: Assets/ShiftGames/EquipSystem/Weapons/Prefabs/Sword.prefab
+  artifactKey: Guid(2b99d159a4e0f774380db70bf9acc71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/Weapons/Prefabs/Sword.prefab using Guid(2b99d159a4e0f774380db70bf9acc71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e555bb09bb5b42392e2db49821570868') in 0.011365 seconds
+  Import took 0.013631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054876 seconds.
+  path: Assets/ShiftGames/EquipSystem/Weapons/Prefabs/Sword.prefab
+  artifactKey: Guid(2b99d159a4e0f774380db70bf9acc71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/Weapons/Prefabs/Sword.prefab using Guid(2b99d159a4e0f774380db70bf9acc71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e555bb09bb5b42392e2db49821570868') in 0.006446 seconds
+  Import took 0.008369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.571045 seconds.
+  path: Assets/ShiftGames/EquipSystem/Weapons/Prefabs/Mace.prefab
+  artifactKey: Guid(7aa214c6468f8c0479ca1db0e6723ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/Weapons/Prefabs/Mace.prefab using Guid(7aa214c6468f8c0479ca1db0e6723ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e500838e4820b32b7edb2c5f8cc2855e') in 0.009622 seconds
+  Import took 0.011592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055179 seconds.
+  path: Assets/ShiftGames/EquipSystem/Weapons/Prefabs/Mace.prefab
+  artifactKey: Guid(7aa214c6468f8c0479ca1db0e6723ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/Weapons/Prefabs/Mace.prefab using Guid(7aa214c6468f8c0479ca1db0e6723ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e500838e4820b32b7edb2c5f8cc2855e') in 0.006822 seconds
+  Import took 0.008934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1293.730271 seconds.
+  path: Assets/ShiftGames/EquipSystem/Weapons/Prefabs/New Folder
+  artifactKey: Guid(0d85bf26554aef64d88f2c8d9df975d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/Weapons/Prefabs/New Folder using Guid(0d85bf26554aef64d88f2c8d9df975d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02019659371ddc95123fd336c0f7abb7') in 0.006030 seconds
+  Import took 0.008516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.727546 seconds.
+  path: Assets/ShiftGames/EquipSystem/Weapons/New Folder
+  artifactKey: Guid(c11d540772db0c841bbc932fa9fbc550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystem/Weapons/New Folder using Guid(c11d540772db0c841bbc932fa9fbc550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21afaa73e367a5c0d8f589ef9e1110d') in 0.001764 seconds
+  Import took 0.003671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.022597 seconds.
+  path: Assets/ShiftGames/EquipSystemArt/Characters/Body parts
+  artifactKey: Guid(a35d648d010eabd49af6bcb76490bbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystemArt/Characters/Body parts using Guid(a35d648d010eabd49af6bcb76490bbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c17856c3449b403904c7eb7a96ce87') in 0.004985 seconds
+  Import took 0.007021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.204317 seconds.
+  path: Assets/ShiftGames/EquipSystemArt/Characters/BodyParts
+  artifactKey: Guid(a35d648d010eabd49af6bcb76490bbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystemArt/Characters/BodyParts using Guid(a35d648d010eabd49af6bcb76490bbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059bd4f0dcb24ce4f0db4a5e67777e67') in 0.004913 seconds
+  Import took 0.006803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.138129 seconds.
+  path: Assets/ShiftGames/EquipSystemArt/Characters/BodyParts/None
+  artifactKey: Guid(ba3270a5671352a4c9d338fe4add8448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystemArt/Characters/BodyParts/None using Guid(ba3270a5671352a4c9d338fe4add8448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f74771698612a8d245b4a7d479401f') in 0.004831 seconds
+  Import took 0.006723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.589547 seconds.
+  path: Assets/ShiftGames/EquipSystemArt/Characters/BodyParts/Lether
+  artifactKey: Guid(275d0925719426e4e957ce756121279c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystemArt/Characters/BodyParts/Lether using Guid(275d0925719426e4e957ce756121279c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67170c31c9328c9ace276d2abbc98bfa') in 0.004804 seconds
+  Import took 0.006773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.095749 seconds.
+  path: Assets/ShiftGames/EquipSystemArt/Characters/BodyParts/Iron
+  artifactKey: Guid(1ca48b2f7f3dd4e4ba5c98354299695f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipSystemArt/Characters/BodyParts/Iron using Guid(1ca48b2f7f3dd4e4ba5c98354299695f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745e98218aa03e0e38136d6a59ce077c') in 0.005154 seconds
+  Import took 0.007104 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003248 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.9 MB.
+System memory in use after: 64.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1693.
+Total: 12.899200 ms (FindLiveObjects: 0.139800 ms CreateObjectMapping: 0.030800 ms MarkObjects: 12.652300 ms  DeleteObjects: 0.075400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003186 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.9 MB.
+System memory in use after: 64.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1696.
+Total: 13.366000 ms (FindLiveObjects: 0.139300 ms CreateObjectMapping: 0.035200 ms MarkObjects: 13.134900 ms  DeleteObjects: 0.055400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5665.353541 seconds.
+  path: Assets/ShiftGames/EquipmentSystem/Scenes/EquipSystem.unity
+  artifactKey: Guid(a38ca7bb7803cb146b31d21a39780899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipmentSystem/Scenes/EquipSystem.unity using Guid(a38ca7bb7803cb146b31d21a39780899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09469fdaa2624124df87d05a471c9df5') in 0.015581 seconds
+  Import took 0.017878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.916456 seconds.
+  path: Assets/ShiftGames/EquipmentSystem/Scenes/EquipmentSystem.unity
+  artifactKey: Guid(a38ca7bb7803cb146b31d21a39780899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShiftGames/EquipmentSystem/Scenes/EquipmentSystem.unity using Guid(a38ca7bb7803cb146b31d21a39780899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3faf3b4c9c43e504278be11de2bd810f') in 0.005527 seconds
+  Import took 0.007704 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.0 MB.
+System memory in use after: 64.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1699.
+Total: 13.079300 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.035200 ms MarkObjects: 12.834200 ms  DeleteObjects: 0.063300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

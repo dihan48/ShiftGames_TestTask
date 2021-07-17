@@ -133,7 +133,7 @@ Shader "Shader Graphs/POLYGON_CustomCharacters"
 		ENDCG
 	}
 	Fallback "Diffuse"
-	CustomEditor "ASEMaterialInspector"
+	/*CustomEditor "ASEMaterialInspector"*/
 }
 /*ASEBEGIN
 Version=16700

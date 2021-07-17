@@ -3561,6 +3561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4138510544480478}
   - component: {fileID: 95995624371828856}
+  - component: {fileID: 1782385305166031}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -3568,6 +3569,34 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1782385305166031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782385305166030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7609433bb546c54ea0fb383757e0872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _partsParent: {fileID: 4419345764588242}
+  _bonesForHelmet:
+  - {fileID: 4649442524084342}
+  - {fileID: 4324713007642754}
+  _heads:
+  - {fileID: 5281839754530201376, guid: 418d2365446c418448957a87ae71d838, type: 3}
+  - {fileID: 8352257692412554360, guid: c23603716c4115b46a8f96f149a20531, type: 3}
+  - {fileID: 3679641117948445510, guid: 1561a27e0598cb5458932893524c1a04, type: 3}
+  _torsos:
+  - {fileID: 2836834680908830133, guid: 90deaecbcde6733449e7160b00bf3c50, type: 3}
+  - {fileID: 2702424511851276192, guid: af279be7f3d60fa4b92ac96db121b090, type: 3}
+  - {fileID: 5758743646719187886, guid: 610f1f60b94746547b8334e64693e18e, type: 3}
+  _legs:
+  - {fileID: 3037292632379423986, guid: a8bab67f3095a754c96c3c2f96306acf, type: 3}
+  - {fileID: 4893609579515176556, guid: a846517337049b04ea69dfd9ffb4b3fd, type: 3}
+  - {fileID: 5655340233453760794, guid: fa55159523a954f418415036885b2287, type: 3}
 --- !u!1 &1787944051769188
 GameObject:
   m_ObjectHideFlags: 0

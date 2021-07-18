@@ -1,2 +1,1 @@
-using UnityEngine;
-public class HeadPreset : MonoBehaviour { }
+public class HeadPreset : BasePreset { }

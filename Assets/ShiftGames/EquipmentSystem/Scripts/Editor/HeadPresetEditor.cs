@@ -11,20 +11,13 @@ public class HeadPresetEditor : BasePresetEditor
     private ButtonPopupList buttonHead;
     private ButtonPopupList buttonHelmet;
 
-    public override void OnEnable()
+    public override string GetSaveFolderName() => "Head";
+
+    public override void CreateInspector(ref VisualElement visualElement)
     {
-        base.OnEnable();
-
-        if (StageUtility.GetCurrentStage() == StageUtility.GetMainStage())
-        {
-            var button = new Button(() => CustomMenuPresetEditor.Head()) { text = "Open Peset Editor" };
-            rootVisualElement.Add(button);
-            return;
-        }
-
         var mateHeadParts = modularCharacters.transform.Find("Modular_Characters")?.Find("Male_Parts")?.Find("Male_00_Head");
-        head = new PresetContainer(mateHeadParts?.Find("Male_Head_All_Elements"), "head");
-        helmet = new PresetContainer(mateHeadParts?.Find("Male_Head_No_Elements"), "helmet");
+        head = new PresetContainer(mateHeadParts?.Find("Male_Head_All_Elements"), "Head");
+        helmet = new PresetContainer(mateHeadParts?.Find("Male_Head_No_Elements"), "Helmet");
         SetPrefab(head);
 
         buttonHead = new ButtonPopupList(head.Name, new List<string>(head.GetNames()), head.GetIndex, (index) => SelectionChange(index, head));
@@ -34,10 +27,20 @@ public class HeadPresetEditor : BasePresetEditor
         var hasHelmet = new Toggle("Has Helmet");
         hasHelmet.RegisterValueChangedCallback(HasHelmetChanged);
 
-        rootVisualElement.Add(hasHelmet);
+        visualElement.Add(hasHelmet);
 
-        rootVisualElement.Add(buttonHead);
-        rootVisualElement.Add(buttonHelmet);
+        visualElement.Add(buttonHead);
+        visualElement.Add(buttonHelmet);
+    }
+
+    public void OnDisable()
+    {
+        if (StageUtility.GetCurrentStage() == StageUtility.GetMainStage())
+            return;
+        if (head.GetPreset() != null)
+            DestroyImmediate(head.GetPreset());
+        if(helmet.GetPreset() != null)
+            DestroyImmediate(helmet.GetPreset());
     }
 
     private void HasHelmetChanged(ChangeEvent<bool> evt)
@@ -56,13 +59,5 @@ public class HeadPresetEditor : BasePresetEditor
             buttonHead.SetEnabled(true);
             buttonHelmet.SetEnabled(false);
         }
-    }
-
-    public void OnDisable()
-    {
-        if(head.GetPreset() != null)
-            DestroyImmediate(head.GetPreset());
-        if(helmet.GetPreset() != null)
-            DestroyImmediate(helmet.GetPreset());
     }
 }

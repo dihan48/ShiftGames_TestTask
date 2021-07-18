@@ -9,22 +9,45 @@ public class CharacterPresets : MonoBehaviour
     [SerializeField] private GameObject[] _torsos;
     [SerializeField] private GameObject[] _legs;
 
+    [SerializeField] private CharacterStats stats = new CharacterStats();
+    private CharacterStats headImpact = new CharacterStats();
+    private CharacterStats torsoImpact = new CharacterStats();
+    private CharacterStats legsImpact = new CharacterStats();
+
+    public event Action<CharacterStats> onChangeStats;
+
+    private void Start()
+    {
+        SetHead(0);
+        SetTorso(0);
+        SetLegs(0);
+    }
+
     public void SetHead(int index)
     {
         if (index >= 0 && index < _heads.Length)
+        {
             PrepSetHeadPreset(_heads[index]);
+            SetImpact(ref headImpact, _heads[index]);
+        }
     }
 
     public void SetTorso(int index)
     {
         if (index >= 0 && index < _torsos.Length)
+        {
             SetPreset(_torsos[index]);
+            SetImpact(ref torsoImpact, _torsos[index]);
+        }
     }
 
     public void SetLegs(int index)
     {
         if (index >= 0 && index < _legs.Length)
+        {
             SetPreset(_legs[index]);
+            SetImpact(ref legsImpact, _legs[index]);
+        }
     }
 
     private void PrepSetHeadPreset(GameObject preset)
@@ -68,17 +91,9 @@ public class CharacterPresets : MonoBehaviour
             helmet.transform.parent = _partsParent;
 
             var render = helmet.AddComponent<SkinnedMeshRenderer>();
-            render.sharedMesh = helmetPreset.GetComponent<MeshFilter>()?.sharedMesh;
-            render.material = helmetPreset.GetComponent<MeshRenderer>()?.sharedMaterial;
-            /*
-                * I didn't find any normal documentation on specifying bones for SkinnedMeshRenderer,
-                * but analyzing the following code from the documentation 
-                * https://docs.unity3d.com/ScriptReference/Mesh-boneWeights.html
-                * helped me understand that need to specify array Transform bones
-                * to the bones property in SkinnedMeshRenderer
-                * otherwise the mesh will not be displayed
-                * I spent about 3 days searching for and understanding this feature of fucking unity
-            */
+            var presetrender = helmetPreset.GetComponent<SkinnedMeshRenderer>();
+            render.sharedMesh = presetrender?.sharedMesh;
+            render.material = presetrender?.sharedMaterial;
             render.bones = _bonesForHelmet;
             render.rootBone = _bonesForHelmet[_bonesForHelmet.Length - 1];
         }
@@ -99,7 +114,7 @@ public class CharacterPresets : MonoBehaviour
                         part.SetActive(true);
 
                     var render = part.GetComponent<SkinnedMeshRenderer>();
-                    var presetRender = presetPart.GetComponent<MeshFilter>();
+                    var presetRender = presetPart.GetComponent<SkinnedMeshRenderer>();
 
                     if (render != null && presetRender != null)
                         render.sharedMesh = presetRender.sharedMesh;
@@ -120,7 +135,7 @@ public class CharacterPresets : MonoBehaviour
                 if (part != null && presetPart != null && part.name == presetPart.name)
                 {
                     var render = part.GetComponent<SkinnedMeshRenderer>();
-                    var presetRender = presetPart.GetComponent<MeshFilter>();
+                    var presetRender = presetPart.GetComponent<SkinnedMeshRenderer>();
 
                     if (render != null && presetRender != null)
                         render.sharedMesh = presetRender.sharedMesh;
@@ -128,4 +143,38 @@ public class CharacterPresets : MonoBehaviour
             }
         }
     }
+
+    private void SetImpact(ref CharacterStats impact, GameObject gameObject)
+    {
+        var preset = gameObject.GetComponent<BasePreset>();
+        impact = new CharacterStats()
+        {
+            armor = preset.armor,
+            strength = preset.strength,
+            agility = preset.agility,
+            maxSpeed = preset.maxSpeed,
+            convenience = preset.convenience
+        };
+
+        onChangeStats?.Invoke(stats + headImpact + torsoImpact + legsImpact);
+    }
+}
+
+[System.Serializable]
+public struct CharacterStats
+{
+    public float armor;
+    public float strength;
+    public float agility;
+    public float maxSpeed;
+    public float convenience;
+
+    public static CharacterStats operator +(CharacterStats a, CharacterStats b)
+        => new CharacterStats() { 
+            armor = a.armor + b.armor,
+            strength = a.strength + b.strength,
+            agility = a.agility + b.agility,
+            maxSpeed = a.maxSpeed + b.maxSpeed,
+            convenience = a.convenience + b.convenience
+        };
 }

@@ -1,2 +1,1 @@
-using UnityEngine;
-public class TorsoPreset : MonoBehaviour { }
+public class TorsoPreset : BasePreset { }

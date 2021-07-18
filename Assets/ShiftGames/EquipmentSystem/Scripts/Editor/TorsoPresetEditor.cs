@@ -7,6 +7,7 @@
 
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEditor.SceneManagement;
 using UnityEngine.UIElements;
 
 [CustomEditor(typeof(TorsoPreset))]
@@ -20,19 +21,19 @@ public class TorsoPresetEditor : BasePresetEditor
     private PresetContainer handLeft;
     private PresetContainer handRight;
 
-    public override void OnEnable()
-    {
-        base.OnEnable();
+    public override string GetSaveFolderName() => "Torso";
 
+    public override void CreateInspector(ref VisualElement visualElement)
+    {
         var mateParts = modularCharacters.transform.Find("Modular_Characters")?.Find("Male_Parts");
 
-        torso = new PresetContainer(mateParts?.Find("Male_03_Torso"), "torso");
-        apperArmLeft = new PresetContainer(mateParts?.Find("Male_05_Arm_Upper_Left"), "apperArmLeft");
-        apperArmRight = new PresetContainer(mateParts?.Find("Male_04_Arm_Upper_Right"), "apperArmRight");
-        lowerArmLeft = new PresetContainer(mateParts?.Find("Male_07_Arm_Lower_Left"), "lowerArmLeft");
-        lowerArmRight = new PresetContainer(mateParts?.Find("Male_06_Arm_Lower_Right"), "lowerArmRight");
-        handLeft = new PresetContainer(mateParts?.Find("Male_09_Hand_Left"), "handLeft");
-        handRight = new PresetContainer(mateParts?.Find("Male_08_Hand_Right"), "handRight");
+        torso = new PresetContainer(mateParts?.Find("Male_03_Torso"), "Torso");
+        apperArmLeft = new PresetContainer(mateParts?.Find("Male_05_Arm_Upper_Left"), "Apper arm left");
+        apperArmRight = new PresetContainer(mateParts?.Find("Male_04_Arm_Upper_Right"), "Apper arm right");
+        lowerArmLeft = new PresetContainer(mateParts?.Find("Male_07_Arm_Lower_Left"), "Lower arm left");
+        lowerArmRight = new PresetContainer(mateParts?.Find("Male_06_Arm_Lower_Right"), "Lower arm right");
+        handLeft = new PresetContainer(mateParts?.Find("Male_09_Hand_Left"), "Hand left");
+        handRight = new PresetContainer(mateParts?.Find("Male_08_Hand_Right"), "Hand right");
 
         SetPrefab(torso);
         SetPrefab(apperArmLeft);
@@ -50,17 +51,19 @@ public class TorsoPresetEditor : BasePresetEditor
         var buttonHandLeft = new ButtonPopupList(handLeft.Name, new List<string>(handLeft.GetNames()), handLeft.GetIndex, (index) => SelectionChange(index, handLeft));
         var buttonHandRight = new ButtonPopupList(handRight.Name, new List<string>(handRight.GetNames()), handRight.GetIndex, (index) => SelectionChange(index, handRight));
 
-        rootVisualElement.Add(buttonTorso);
-        rootVisualElement.Add(buttonApperArmLeft);
-        rootVisualElement.Add(buttonApperArmRight);
-        rootVisualElement.Add(buttonLowerArmLeft);
-        rootVisualElement.Add(buttonLowerArmRight);
-        rootVisualElement.Add(buttonHandLeft);
-        rootVisualElement.Add(buttonHandRight);
+        visualElement.Add(buttonTorso);
+        visualElement.Add(buttonApperArmLeft);
+        visualElement.Add(buttonApperArmRight);
+        visualElement.Add(buttonLowerArmLeft);
+        visualElement.Add(buttonLowerArmRight);
+        visualElement.Add(buttonHandLeft);
+        visualElement.Add(buttonHandRight);
     }
 
     public void OnDisable()
     {
+        if (StageUtility.GetCurrentStage() == StageUtility.GetMainStage())
+            return;
         DestroyImmediate(torso.GetPreset());
         DestroyImmediate(apperArmLeft.GetPreset());
         DestroyImmediate(apperArmRight.GetPreset());

@@ -1,2 +1,1 @@
-using UnityEngine;
-public class LegsPreset : MonoBehaviour { }
+public class LegsPreset : BasePreset { }

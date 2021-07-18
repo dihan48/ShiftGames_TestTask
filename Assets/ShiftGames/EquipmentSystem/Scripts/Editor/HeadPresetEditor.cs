@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEditor.SceneManagement;
 using UnityEngine.UIElements;
 
 [CustomEditor(typeof(HeadPreset))]
@@ -13,7 +12,7 @@ public class HeadPresetEditor : BasePresetEditor
 
     public override string GetSaveFolderName() => "Head";
 
-    public override void CreateInspector(ref VisualElement visualElement)
+    public override void Init()
     {
         var mateHeadParts = modularCharacters.transform.Find("Modular_Characters")?.Find("Male_Parts")?.Find("Male_00_Head");
         head = new PresetContainer(mateHeadParts?.Find("Male_Head_All_Elements"), "Head");
@@ -27,19 +26,17 @@ public class HeadPresetEditor : BasePresetEditor
         var hasHelmet = new Toggle("Has Helmet");
         hasHelmet.RegisterValueChangedCallback(HasHelmetChanged);
 
-        visualElement.Add(hasHelmet);
+        bodyVisualElement.Add(hasHelmet);
 
-        visualElement.Add(buttonHead);
-        visualElement.Add(buttonHelmet);
+        bodyVisualElement.Add(buttonHead);
+        bodyVisualElement.Add(buttonHelmet);
     }
 
-    public void OnDisable()
+    public override void Destroy()
     {
-        if (StageUtility.GetCurrentStage() == StageUtility.GetMainStage())
-            return;
-        if (head.GetPreset() != null)
+        if (head?.GetPreset() != null)
             DestroyImmediate(head.GetPreset());
-        if(helmet.GetPreset() != null)
+        if(helmet?.GetPreset() != null)
             DestroyImmediate(helmet.GetPreset());
     }
 

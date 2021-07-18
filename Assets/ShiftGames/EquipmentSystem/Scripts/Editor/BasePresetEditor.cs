@@ -8,8 +8,9 @@ public abstract class BasePresetEditor : Editor
 {
     protected Material material;
     protected GameObject modularCharacters;
-    protected VisualElement rootVisualElement;
+    protected VisualElement bodyVisualElement;
 
+    private VisualElement rootVisualElement;
     private TextField prefabName;
 
     private FloatField armor;
@@ -18,25 +19,25 @@ public abstract class BasePresetEditor : Editor
     private FloatField maxSpeed;
     private FloatField convenience;
 
-    public abstract void CreateInspector(ref VisualElement visualElement);
+    public abstract void Init();
     public abstract string GetSaveFolderName();
 
     public override VisualElement CreateInspectorGUI() => rootVisualElement;
 
     public void OnEnable()
     {
-        if (StageUtility.GetCurrentStage() == StageUtility.GetMainStage())
+        if (StageUtility.GetCurrentStage() != CustomMenuPresetEditor.Stage)
             return;
 
         material = (Material)AssetDatabase.LoadAssetAtPath("Assets/PolygonFantasyHeroCharacters/Materials/FantasyHero.mat", typeof(Material));
         modularCharacters = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/PolygonFantasyHeroCharacters/Models/ModularCharacters.fbx", typeof(GameObject));
         rootVisualElement = new VisualElement();
 
-        var visualElement = new VisualElement();
-        CreateInspector(ref visualElement);
+        bodyVisualElement = new VisualElement();
+        Init();
 
-        if (visualElement != null)
-            rootVisualElement.Add(visualElement);
+        if (bodyVisualElement != null)
+            rootVisualElement.Add(bodyVisualElement);
 
         CreateStatsFields();
 
@@ -45,6 +46,20 @@ public abstract class BasePresetEditor : Editor
         rootVisualElement.Add(prefabName);
         var saveButton = new Button(() => SavePrefab(GetSaveFolderName(), GetPrefabName())) { text = "Save Prefab" };
         rootVisualElement.Add(saveButton);
+    }
+
+    public virtual void OnDisable()
+    {
+        if (StageUtility.GetCurrentStage() == CustomMenuPresetEditor.Stage)
+        {
+            Destroy();
+            CustomMenuPresetEditor.Exit();
+        }
+    }
+
+    public virtual void Destroy()
+    {
+
     }
 
     protected void SetPrefab(PresetContainer presetContainer)

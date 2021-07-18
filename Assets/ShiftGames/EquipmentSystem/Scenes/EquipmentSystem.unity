@@ -3743,7 +3743,8 @@ MonoBehaviour:
   upperBoneHelmet: {fileID: 4649442524084342}
   lowerBoneHelmet: {fileID: 4324713007642754}
   weaponAttachment: {fileID: 4376707028063284}
-  weaponAttachmentRotationOffset: {x: -0.1339611, y: -0.62793136, z: 0.76041704, w: -0.09758409}
+  weaponPositionOffset: {x: 0.64, y: 3.16, z: -2.11}
+  weaponRotationOffset: {x: 0.24245915, y: 0.56128585, z: -0.77619773, w: 0.15391175}
   heads:
   - {fileID: 2734328331394954990, guid: 112fe7ff3d8481946aca6b793b87a04b, type: 3}
   - {fileID: 2734328331394954990, guid: 33f470256c01c4e4a91c2062b5f823b8, type: 3}

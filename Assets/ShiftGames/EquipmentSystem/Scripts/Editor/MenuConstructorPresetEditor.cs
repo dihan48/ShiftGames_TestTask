@@ -4,6 +4,8 @@ using UnityEditor.SceneManagement;
 
 public class CustomMenuPresetEditor
 {
+    public static CustomStage Stage { get; private set; }
+
     [MenuItem("-------------------->>>>>> Character Preset Editor <<<<<<--------------------/Head")]
     public static void Head() => InitStage("HeadPreset", typeof(HeadPreset));
 
@@ -13,17 +15,22 @@ public class CustomMenuPresetEditor
     [MenuItem("-------------------->>>>>> Character Preset Editor <<<<<<--------------------/Legs")]
     public static void Legs() => InitStage("LegsPreset", typeof(LegsPreset));
 
-    private static void InitStage(string presetName, System.Type presetType)
+    public static void Exit()
     {
         if (StageUtility.GetCurrentStage() != StageUtility.GetMainStage())
             StageUtility.GoToMainStage();
+    }
+
+    private static void InitStage(string presetName, System.Type presetType)
+    {
+        Exit();
 
         /**
         * Easy peasy lemon squeezy 😎
         */
-        var stage = ScriptableObject.CreateInstance<CustomStage>();
-        stage.name = "Edit "+presetName;
-        StageUtility.GoToStage(stage, false);
+        Stage = ScriptableObject.CreateInstance<CustomStage>();
+        Stage.name = "Edit "+presetName;
+        StageUtility.GoToStage(Stage, false);
 
         var preset = new GameObject(presetName, presetType);
         StageUtility.PlaceGameObjectInCurrentStage(preset);

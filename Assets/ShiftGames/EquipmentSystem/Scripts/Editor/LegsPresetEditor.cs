@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEditor.SceneManagement;
 using UnityEngine.UIElements;
 
 [CustomEditor(typeof(LegsPreset))]
@@ -12,7 +11,7 @@ public class LegsPresetEditor : BasePresetEditor
 
     public override string GetSaveFolderName() => "Legs";
 
-    public override void CreateInspector(ref VisualElement visualElement)
+    public override void Init()
     {
         var mateParts = modularCharacters.transform.Find("Modular_Characters")?.Find("Male_Parts");
 
@@ -28,15 +27,13 @@ public class LegsPresetEditor : BasePresetEditor
         var buttonLegLeft = new ButtonPopupList(legLeft.Name, new List<string>(legLeft.GetNames()), legLeft.GetIndex, (index) => SelectionChange(index, legLeft));
         var buttonLegRight = new ButtonPopupList(legRight.Name, new List<string>(legRight.GetNames()), legRight.GetIndex, (index) => SelectionChange(index, legRight));
 
-        visualElement.Add(buttonHips);
-        visualElement.Add(buttonLegLeft);
-        visualElement.Add(buttonLegRight);
+        bodyVisualElement.Add(buttonHips);
+        bodyVisualElement.Add(buttonLegLeft);
+        bodyVisualElement.Add(buttonLegRight);
     }
 
-    public void OnDisable()
+    public override void Destroy()
     {
-        if (StageUtility.GetCurrentStage() == StageUtility.GetMainStage())
-            return;
         DestroyImmediate(hips.GetPreset());
         DestroyImmediate(legLeft.GetPreset());
         DestroyImmediate(legRight.GetPreset());

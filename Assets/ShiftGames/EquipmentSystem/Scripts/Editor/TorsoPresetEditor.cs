@@ -7,7 +7,6 @@
 
 using System.Collections.Generic;
 using UnityEditor;
-using UnityEditor.SceneManagement;
 using UnityEngine.UIElements;
 
 [CustomEditor(typeof(TorsoPreset))]
@@ -23,7 +22,7 @@ public class TorsoPresetEditor : BasePresetEditor
 
     public override string GetSaveFolderName() => "Torso";
 
-    public override void CreateInspector(ref VisualElement visualElement)
+    public override void Init()
     {
         var mateParts = modularCharacters.transform.Find("Modular_Characters")?.Find("Male_Parts");
 
@@ -51,19 +50,17 @@ public class TorsoPresetEditor : BasePresetEditor
         var buttonHandLeft = new ButtonPopupList(handLeft.Name, new List<string>(handLeft.GetNames()), handLeft.GetIndex, (index) => SelectionChange(index, handLeft));
         var buttonHandRight = new ButtonPopupList(handRight.Name, new List<string>(handRight.GetNames()), handRight.GetIndex, (index) => SelectionChange(index, handRight));
 
-        visualElement.Add(buttonTorso);
-        visualElement.Add(buttonApperArmLeft);
-        visualElement.Add(buttonApperArmRight);
-        visualElement.Add(buttonLowerArmLeft);
-        visualElement.Add(buttonLowerArmRight);
-        visualElement.Add(buttonHandLeft);
-        visualElement.Add(buttonHandRight);
+        bodyVisualElement.Add(buttonTorso);
+        bodyVisualElement.Add(buttonApperArmLeft);
+        bodyVisualElement.Add(buttonApperArmRight);
+        bodyVisualElement.Add(buttonLowerArmLeft);
+        bodyVisualElement.Add(buttonLowerArmRight);
+        bodyVisualElement.Add(buttonHandLeft);
+        bodyVisualElement.Add(buttonHandRight);
     }
 
-    public void OnDisable()
+    public override void Destroy()
     {
-        if (StageUtility.GetCurrentStage() == StageUtility.GetMainStage())
-            return;
         DestroyImmediate(torso.GetPreset());
         DestroyImmediate(apperArmLeft.GetPreset());
         DestroyImmediate(apperArmRight.GetPreset());

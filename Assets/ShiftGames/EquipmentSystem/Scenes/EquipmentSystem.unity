@@ -1804,6 +1804,34 @@ PrefabInstance:
       propertyPath: m_Options.m_Options.Array.data[2].m_Text
       value: Sword
       objectReference: {fileID: 0}
+    - target: {fileID: 7758670095570618289, guid: 80c86e78e30c6004d8212039bbec3aea, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758670095570618289, guid: 80c86e78e30c6004d8212039bbec3aea, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758670095570618289, guid: 80c86e78e30c6004d8212039bbec3aea, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1782385305166031}
+    - target: {fileID: 7758670095570618289, guid: 80c86e78e30c6004d8212039bbec3aea, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758670095570618289, guid: 80c86e78e30c6004d8212039bbec3aea, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetWeapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758670095570618289, guid: 80c86e78e30c6004d8212039bbec3aea, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Character, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758670095570618289, guid: 80c86e78e30c6004d8212039bbec3aea, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7758670096411255594, guid: 80c86e78e30c6004d8212039bbec3aea, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3711,22 +3739,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7609433bb546c54ea0fb383757e0872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _partsParent: {fileID: 4419345764588242}
-  _bonesForHelmet:
-  - {fileID: 4649442524084342}
-  - {fileID: 4324713007642754}
-  _heads:
+  partsParent: {fileID: 4419345764588242}
+  upperBoneHelmet: {fileID: 4649442524084342}
+  lowerBoneHelmet: {fileID: 4324713007642754}
+  weaponAttachment: {fileID: 4376707028063284}
+  weaponAttachmentRotationOffset: {x: -0.1339611, y: -0.62793136, z: 0.76041704, w: -0.09758409}
+  heads:
   - {fileID: 2734328331394954990, guid: 112fe7ff3d8481946aca6b793b87a04b, type: 3}
   - {fileID: 2734328331394954990, guid: 33f470256c01c4e4a91c2062b5f823b8, type: 3}
   - {fileID: 2734328331394954990, guid: 59d514591a111a446b7efac24b21a183, type: 3}
-  _torsos:
+  torsos:
   - {fileID: 4125463417186154415, guid: 8f5e7be41b1c26c4883024f70a51f115, type: 3}
   - {fileID: 4125463417186154415, guid: cd6737c27eb483c488a43609c07cc6b3, type: 3}
   - {fileID: 4125463417186154415, guid: b5ca18d72653c6d40a85b188e32205db, type: 3}
-  _legs:
+  legs:
   - {fileID: 4055276623398096892, guid: c5ff1383ba93f844db07a5a55bcefadd, type: 3}
   - {fileID: 4055276623398096892, guid: c5007f9bcdb4b084ea9c60e46f2d8ba0, type: 3}
   - {fileID: 4055276623398096892, guid: 245d247c1f9fd91499d74f3adce11fc7, type: 3}
+  weapons:
+  - {fileID: 4481321098647032048, guid: 7aa214c6468f8c0479ca1db0e6723ae0, type: 3}
+  - {fileID: 6752582598994122925, guid: 2b99d159a4e0f774380db70bf9acc71b, type: 3}
   stats:
     armor: 0
     strength: 10

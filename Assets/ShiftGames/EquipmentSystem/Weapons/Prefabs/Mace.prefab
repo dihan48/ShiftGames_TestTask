@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4477257793666834702}
   - component: {fileID: 4486743118945209724}
   - component: {fileID: 4496765740206425296}
+  - component: {fileID: 1517700259475393738}
   m_Layer: 0
   m_Name: Mace
   m_TagString: Untagged
@@ -81,3 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1517700259475393738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4481321098647032048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6897d8ef95d104fad87219a1bf353f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  armor: 1
+  strength: 4
+  agility: -5
+  maxSpeed: -5
+  convenience: 4

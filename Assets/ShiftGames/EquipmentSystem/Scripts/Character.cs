@@ -1,18 +1,29 @@
 using System;
 using UnityEngine;
 
-public class CharacterPresets : MonoBehaviour
+public class Character : MonoBehaviour
 {
-    [SerializeField] private Transform _partsParent;
-    [SerializeField] private Transform[] _bonesForHelmet;
-    [SerializeField] private GameObject[] _heads;
-    [SerializeField] private GameObject[] _torsos;
-    [SerializeField] private GameObject[] _legs;
+    [SerializeField] private Transform partsParent;
+    [SerializeField] private Transform upperBoneHelmet;
+    [SerializeField] private Transform lowerBoneHelmet;
+    [SerializeField] private Transform weaponAttachment;
+    [SerializeField] private Vector3 weaponPositionOffset = new Vector3(0,0,0);
+    [SerializeField] private Quaternion weaponRotationOffset = new Quaternion(-0.133961096f, -0.627931356f, 0.760417044f, -0.0975840911f);
+
+    [Header("Presets")]
+    [SerializeField] private GameObject[] heads;
+    [SerializeField] private GameObject[] torsos;
+    [SerializeField] private GameObject[] legs;
+    [SerializeField] private GameObject[] weapons;
 
     [SerializeField] private CharacterStats stats = new CharacterStats();
+
+    private GameObject weapon;
+
     private CharacterStats headImpact = new CharacterStats();
     private CharacterStats torsoImpact = new CharacterStats();
     private CharacterStats legsImpact = new CharacterStats();
+    private CharacterStats weaponImpact = new CharacterStats();
 
     public event Action<CharacterStats> onChangeStats;
 
@@ -25,28 +36,48 @@ public class CharacterPresets : MonoBehaviour
 
     public void SetHead(int index)
     {
-        if (index >= 0 && index < _heads.Length)
+        if (index >= 0 && index < heads.Length)
         {
-            PrepSetHeadPreset(_heads[index]);
-            SetImpact(ref headImpact, _heads[index]);
+            PrepSetHeadPreset(heads[index]);
+            SetImpact(ref headImpact, heads[index]);
         }
     }
 
     public void SetTorso(int index)
     {
-        if (index >= 0 && index < _torsos.Length)
+        if (index >= 0 && index < torsos.Length)
         {
-            SetPreset(_torsos[index]);
-            SetImpact(ref torsoImpact, _torsos[index]);
+            SetPreset(torsos[index]);
+            SetImpact(ref torsoImpact, torsos[index]);
         }
     }
 
     public void SetLegs(int index)
     {
-        if (index >= 0 && index < _legs.Length)
+        if (index >= 0 && index < legs.Length)
         {
-            SetPreset(_legs[index]);
-            SetImpact(ref legsImpact, _legs[index]);
+            SetPreset(legs[index]);
+            SetImpact(ref legsImpact, legs[index]);
+        }
+    }
+
+    public void SetWeapon(int index)
+    {
+        if (weapon != null)
+            Destroy(weapon);
+
+        if (index > 0 && index < legs.Length)
+        {
+            weapon = Instantiate(weapons[index - 1], weaponAttachment);
+            weapon.transform.localPosition = weaponPositionOffset;
+            weapon.transform.rotation = weaponRotationOffset;
+            weapon.transform.localScale = Vector3.one * 100;
+
+            SetImpact(ref weaponImpact, weapons[index - 1]);
+        }
+        else if(index == 0)
+        {
+            SetImpact(ref weaponImpact, null);
         }
     }
 
@@ -74,9 +105,9 @@ public class CharacterPresets : MonoBehaviour
         var conflictingObjectNames = new string[] { "Head", "Face hair", "Eyebrow" };
         var hasHelmet = helmetPreset != null;
 
-        for (int i = 0; i < _partsParent.childCount; i++)
+        for (int i = 0; i < partsParent.childCount; i++)
         {
-            var part = _partsParent.GetChild(i).gameObject;
+            var part = partsParent.GetChild(i).gameObject;
 
             if (part.name == "Helmet")
                 Destroy(part);
@@ -88,14 +119,14 @@ public class CharacterPresets : MonoBehaviour
         if (hasHelmet)
         {
             var helmet = new GameObject { name = "Helmet" };
-            helmet.transform.parent = _partsParent;
+            helmet.transform.parent = partsParent;
 
             var render = helmet.AddComponent<SkinnedMeshRenderer>();
             var presetrender = helmetPreset.GetComponent<SkinnedMeshRenderer>();
             render.sharedMesh = presetrender?.sharedMesh;
             render.material = presetrender?.sharedMaterial;
-            render.bones = _bonesForHelmet;
-            render.rootBone = _bonesForHelmet[_bonesForHelmet.Length - 1];
+            render.bones = new[] { upperBoneHelmet, lowerBoneHelmet };
+            render.rootBone = lowerBoneHelmet;
         }
     }
 
@@ -103,9 +134,9 @@ public class CharacterPresets : MonoBehaviour
     {
         for (int i = 0; i < presetParts.Length; i++)
         {
-            for (int j = 0; j < _partsParent.childCount; j++)
+            for (int j = 0; j < partsParent.childCount; j++)
             {
-                var part = _partsParent.GetChild(j).gameObject;
+                var part = partsParent.GetChild(j).gameObject;
                 var presetPart = presetParts[i];
 
                 if (presetPart.name == part.name)
@@ -127,10 +158,10 @@ public class CharacterPresets : MonoBehaviour
     {
         for (int i = 0; i < preset.transform.childCount; i++)
         {
-            for (int j = 0; j < _partsParent.childCount; j++)
+            for (int j = 0; j < partsParent.childCount; j++)
             {
                 var presetPart = preset.transform.GetChild(i).gameObject;
-                var part = _partsParent.GetChild(j).gameObject;
+                var part = partsParent.GetChild(j).gameObject;
 
                 if (part != null && presetPart != null && part.name == presetPart.name)
                 {
@@ -146,17 +177,24 @@ public class CharacterPresets : MonoBehaviour
 
     private void SetImpact(ref CharacterStats impact, GameObject gameObject)
     {
-        var preset = gameObject.GetComponent<BasePreset>();
-        impact = new CharacterStats()
+        if(gameObject != null)
         {
-            armor = preset.armor,
-            strength = preset.strength,
-            agility = preset.agility,
-            maxSpeed = preset.maxSpeed,
-            convenience = preset.convenience
-        };
+            var preset = gameObject.GetComponent<BasePreset>();
+            impact = new CharacterStats()
+            {
+                armor = preset.armor,
+                strength = preset.strength,
+                agility = preset.agility,
+                maxSpeed = preset.maxSpeed,
+                convenience = preset.convenience
+            };
+        }
+        else
+        {
+            impact = new CharacterStats();
+        }
 
-        onChangeStats?.Invoke(stats + headImpact + torsoImpact + legsImpact);
+        onChangeStats?.Invoke(stats + headImpact + torsoImpact + legsImpact + weaponImpact);
     }
 }
 

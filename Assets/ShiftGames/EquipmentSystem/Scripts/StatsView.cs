@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class StatsView : MonoBehaviour
 {
-    [SerializeField] private CharacterPresets characterPresets;
+    [SerializeField] private Character characterPresets;
 
     [SerializeField] private Text armor;
     [SerializeField] private Text strength;
